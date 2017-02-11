@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Menu</title>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<style>
+body {
+    background-image: url(Images/MainBackground.jpg);
+    background-color: #066;
+}
+</style>
+</head>
+
+<body onLoad="MM_preloadImages('Images/Small Images/HomeOn.gif','Images/Small Images/IntroductionOn.gif','Images/Small Images/VisualDesignOn.gif','Images/Small Images/NavigationOn.gif','Images/Small Images/MultimediaOn.gif','Images/Small Images/UsabilityOn.gif','Images/Small Images/OwnershipOn.gif','Images/Small Images/TechniqueDetailsOn.gif','Images/Small Images/ImprovementsOn.gif','Images/Small Images/DesignPrinciplesOn.gif','Images/Small Images/ReferencesOn.gif')">
+<table width="200">
+  <tbody>
+    <tr>
+      <td><a href="Home.html" title="Home" target="Centre" onMouseOver="MM_swapImage('Image1','','Images/Small Images/HomeOn.gif',1)" onMouseOut="MM_swapImgRestore()"> <img src="Images/Small Images/HomeOff.gif" alt="" width="198" height="55" id="Image1"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="Introduction.html" title="Introduction" target="Centre" onMouseOver="MM_swapImage('Image2','','Images/Small Images/IntroductionOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/IntroductionOff.gif" alt="" width="198" height="55" id="Image2"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="Visual Design.html" title="Visual Design" target="Centre" onMouseOver="MM_swapImage('Image3','','Images/Small Images/VisualDesignOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/VisualDesignOff.gif" alt="" width="198" height="55" id="Image3"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="Navigation.html" title="Navigation" target="Centre" onMouseOver="MM_swapImage('Image4','','Images/Small Images/NavigationOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/NavigationOff.gif" alt="" width="198" height="55" id="Image4"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="Multimedia Elements.html" title="Multimedia Elements" target="Centre" onMouseOver="MM_swapImage('Image5','','Images/Small Images/MultimediaOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/MultimediaOff.gif" alt="" width="198" height="55" id="Image5"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="Usability.html" title="Usability and Accessibility" target="Centre" onMouseOver="MM_swapImage('Image6','','Images/Small Images/UsabilityOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/UsabilityOff.gif" alt="" width="198" height="55" id="Image6"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="Ownership.html" title="Ownership and Copyright" target="Centre" onMouseOver="MM_swapImage('Image7','','Images/Small Images/OwnershipOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/OwnershipOff.gif" alt="" width="198" height="55" id="Image7"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="Technique Details.html" title="Technique Details" target="Centre" onMouseOver="MM_swapImage('Image8','','Images/Small Images/TechniqueDetailsOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/TechniqueDetailsOff.gif" alt="" width="198" height="55" id="Image8"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="Improvements and Highlights.html" title="Improvements and Highlights" target="Centre" onMouseOver="MM_swapImage('Image9','','Images/Small Images/ImprovementsOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/ImprovementsOff.gif" alt="" width="198" height="55" id="Image9"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="Design Principles.html" title="Design Principles" target="Centre" onMouseOver="MM_swapImage('Image10','','Images/Small Images/DesignPrinciplesOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/DesignPrinciplesOff.gif" alt="" width="198" height="55" id="Image10"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="References.html" title="References" target="Centre" onMouseOver="MM_swapImage('Image11','','Images/Small Images/ReferencesOn.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="Images/Small Images/ReferencesOff.gif" alt="" width="198" height="55" id="Image11"/></a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+</body>
+</html>

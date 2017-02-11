@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-size:12pt;
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: black;
+background:url(Images/CentreBackground2.jpg);
+margin-left:20pt;
+margin-right:10pt;
+line-height:16pt;}
+
+p{text-align:justify;
+text-indent:40px;
+font-size:12pt;
+}
+
+h1{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color:black;
+font-weight: bold;
+text-align:center}
+
+h3{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color:black;}
+
+a{text-decoration:none;}
+
+a:link {color:#006;
+text-shadow:#06F;
+font-weight: bold;
+}
+
+a:visited {color:#303;
+text-shadow:#369}
+
+a:hover {
+    text-decoration: underline;}
+
+iframe:focus { 
+    outline: none;
+}
+
+iframe[seamless] { 
+    display: block;
+}
+
+
